@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket         = "mi-bucket-test"
-    key            = "terraform/state/infra.tfstate"
+    key            = "terraform/qa/infra.tfstate"
     region         = "us-east-1"
     encrypt        = false
     use_lockfile   = true
